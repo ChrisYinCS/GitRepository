@@ -1,4 +1,18 @@
-添加文件	git add example.txt
-上传更改	git commit -m "Example Comments"
-可以add多个文件，然后一次性commit这些添加的文件。
-查看git的状态	git status
+1. 添加文件			
+	git add example.txt
+2. 上传更改			
+	git commit -m "Example Comments"
+	可以add多个文件，然后一次性commit这些添加的文件。
+3. 查看git的状态			
+	git status
+4. 查看修改的记录			
+	git log		可以用 git log --pretty=oneline来按照一行显示优化log
+5. 回退版本（就是讲HEAD指针重新定位）
+	git reset --hard HEAD^	HEAD后面跟的^数量表示回退多少个版本，要跨多版本不方便打很多^时，可以直接写数字 git reset -- hard HEAD~100	
+	git reset --hard 88888	数字代表某次修改的SHA结果，这个命令可以直接跳转到对应的版本
+6. 记录每一次命令，即使是电脑关机以前的也可以
+	git reflog
+7. 查看修改
+	git diff example.txt
+	git diff HEAD -- example.txt	查看工作区和版本库内的最新版本之间的区别
+8. 	
