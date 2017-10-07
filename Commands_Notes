@@ -1,0 +1,3 @@
+添加文件	git add example.txt
+上传更改	git commit -m "Example Comments"
+可以add多个文件，然后一次性commit这些添加的文件。
