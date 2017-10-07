@@ -15,4 +15,8 @@
 7. 查看修改
 	git diff example.txt
 	git diff HEAD -- example.txt	查看工作区和版本库内的最新版本之间的区别
-8. 	
+8. 撤销修改
+	git checkout -- examle.txt	撤回工作区的修改（还没有add到暂存区的），当要撤回已经add到暂存区的修改时，先执行以下命令，再执行撤回工作区修改的命令
+	git reset HEAD file		如果已经从暂存区放到版本库了，那就只能采用版本回退的方法了，前提是还没有推送的远程库
+9. 
+	
