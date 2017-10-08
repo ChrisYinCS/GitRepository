@@ -5,3 +5,4 @@ Add a new line to test the dev branch.
 This is a change in both master and new branch.
 a new line to branch dev.
 Now I am working on a new branch, while my boss tells me that there is a bug in the master branch that need to be fixed immediately, so I need to keep my curret work status and go back to fix the bug firstly, how can I do?
+I added a new line in a dev branch and then merge to master -> push to GitHub -> clone to my parterner -> see how to cooperate with my parterners with Git.
