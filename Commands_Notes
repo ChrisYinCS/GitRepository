@@ -39,7 +39,13 @@
 	git stash drop	删除
 	或者 git stash pop 恢复并删除
 	git stash list	可以查看所保存的所有工作区
-14. 	
+14. 	多人协作时:
+	git remove -v		查看抓取和推送的地址信息
+	git push origin dev	推送dev分支到origin服务器上
+	git pull		抓取服务器上最新的提交
+	git branch --set-upstream-to=origin/dev		将本地的dev分支与远程的origin/dev分支链接起来
+15.	标签
+	
 
 
 
