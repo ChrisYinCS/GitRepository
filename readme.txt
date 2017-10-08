@@ -7,3 +7,5 @@ a new line to branch dev.
 Now I am working on a new branch, while my boss tells me that there is a bug in the master branch that need to be fixed immediately, so I need to keep my curret work status and go back to fix the bug firstly, how can I do?
 I added a new line in a dev branch and then merge to master -> push to GitHub -> clone to my parterner -> see how to cooperate with my parterners with Git.
 I am ChrisYinCS and I am also making changes in dev branch, now my push may conficts with my pparterner's work, then how can I do?
+I am parterner 2 and I have made a change in this file in dev branch, later I will commit and push dev to GitHub.
+Just keep the changes from both ChrisYinCS and my parterner.
