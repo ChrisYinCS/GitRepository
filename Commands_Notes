@@ -45,6 +45,18 @@
 	git pull		抓取服务器上最新的提交
 	git branch --set-upstream-to=origin/dev		将本地的dev分支与远程的origin/dev分支链接起来
 15.	标签
+	git tag <name>		在HEAD处创建一个标签
+	git tag -a <name> -m "Comments"		创建一个带comments信息的标签
+	git tag -s <name> -m "Comments"		创建一个带签名的标签
+	git tag			查看所有标签
+	如果不想在HEAD处打标签，而是到以前的commit版本打的话，可以先用 git log --pretty=oneline --abbrev-commit 来查看所有的commit版本，然后再对某个指定的版本打标签：
+	git tag <name> <commit ID>	commit id是对应的ID号，例如 6224e73
+	git tag
+16.	标签的推送
+	git push origin <name>			推送一个本地标签
+	git push origin --tags			一次性推送所有本地标签
+	git tag -d <name>			删除某个本地标签
+	git push origin :refs/tags/<name>	删除一个远程标签
 	
 
 
