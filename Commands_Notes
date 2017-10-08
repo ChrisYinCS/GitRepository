@@ -29,9 +29,17 @@
 	git checkout -b <name>	创建并切换到name分支
 	git merge <name>	合并某分支到当前分支
 	git branch -d <name>	删除name分支
-12. 	有冲突时，查看git分支合并图
+	git branch -D <name>	强制删除name分支（比如想要删除一个还没有合并的分支时）
+12. 有冲突时，查看git分支合并图
 	git log --graph
-
+13. bug分支，临时保存当前工作区域，去修复主分支的bug，然后恢复保存的工作区域
+	git stash 	保存当前工作区
+	然后切回到主分区，然后创建一个bug修复分支，在该分支内修复bug，然后commit，然后再用以下命令恢复并回到之前的工作区：
+	git stash apply	恢复（不删除）
+	git stash drop	删除
+	或者 git stash pop 恢复并删除
+	git stash list	可以查看所保存的所有工作区
+14. 	
 
 
 
