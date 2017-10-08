@@ -18,5 +18,43 @@
 8. 撤销修改
 	git checkout -- examle.txt	撤回工作区的修改（还没有add到暂存区的），当要撤回已经add到暂存区的修改时，先执行以下命令，再执行撤回工作区修改的命令
 	git reset HEAD file		如果已经从暂存区放到版本库了，那就只能采用版本回退的方法了，前提是还没有推送的远程库
-9. 
-	
+9. 本地库同步到Github服务器	
+	git push origin master
+10. 从github服务器克隆库到本地，在目标库目录下：
+	git clone git@github.com:username/example.git
+11. 	分支操作
+	git branch	查看所有分支
+	git branch <name>	创建name分支
+	git checkout <name>	切换到name分支
+	git checkout -b <name>	创建并切换到name分支
+	git merge <name>	合并某分支到当前分支
+	git branch -d <name>	删除name分支
+12. 	有冲突时，查看git分支合并图
+	git log --graph
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
